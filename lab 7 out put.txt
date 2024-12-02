@@ -1,0 +1,125 @@
+C:\Users\SIR MVIT>d:
+
+D:\>cd harshit
+
+D:\harshit>mkdir f7
+
+D:\harshit>cd f7
+
+D:\harshit\f7>git init
+Initialized empty Git repository in D:/harshit/f7/.git/
+
+D:\harshit\f7>h1.txt
+'h1.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\harshit\f7>h1.txt
+'h1.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\harshit\f7>Notepad h1.txt
+
+D:\harshit\f7>git add .
+
+D:\harshit\f7>git commit -m "c1"
+[master (root-commit) 7b1531f] c1
+ 2 files changed, 1 insertion(+)
+ create mode 100644 h1.txt
+ create mode 100644 h1.txt.txt
+
+D:\harshit\f7>git add .
+
+D:\harshit\f7>git commit -m "c2"
+[master 507f285] c2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\harshit\f7>git add .
+
+D:\harshit\f7>git commit -m "c3"
+[master 7d737b9] c3
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\harshit\f7>git add .
+
+D:\harshit\f7>git commit -m "c4"
+[master c14906a] c4
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\harshit\f7>git add .
+
+D:\harshit\f7>git commit -m "c5"
+[master 57bb0f3] c5
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+D:\harshit\f7>git lock
+git: 'lock' is not a git command. See 'git --help'.
+
+The most similar commands are
+        fsck
+        hook
+
+D:\harshit\f7>git log
+commit 57bb0f3b12d1d9638a1ffa56da6ada9fa3836d1f (HEAD -> master)
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:14:21 2024 +0530
+
+    c5
+
+commit c14906ac428104f4b95c226fc9b5d79d3039d13c
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:13:50 2024 +0530
+
+    c4
+
+commit 7d737b99d20ec77649fa32a0c25d569eebc242ac
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:13:27 2024 +0530
+
+    c3
+
+commit 507f2856ea62340dc4e0cb724d7f2f61a354dcc9
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:12:52 2024 +0530
+
+    c2
+
+commit 7b1531ffb2bc95c44f6ec168129b0cf167263cd0
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:11:01 2024 +0530
+
+    c1
+
+D:\harshit\f7>git tag f01 7b1531ffb2bc95c44f6ec168129b0cf167263cd0
+
+D:\harshit\f7>git log
+commit 57bb0f3b12d1d9638a1ffa56da6ada9fa3836d1f (HEAD -> master)
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:14:21 2024 +0530
+
+    c5
+
+commit c14906ac428104f4b95c226fc9b5d79d3039d13c
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:13:50 2024 +0530
+
+    c4
+
+commit 7d737b99d20ec77649fa32a0c25d569eebc242ac
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:13:27 2024 +0530
+
+    c3
+
+commit 507f2856ea62340dc4e0cb724d7f2f61a354dcc9
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:12:52 2024 +0530
+
+    c2
+
+commit 7b1531ffb2bc95c44f6ec168129b0cf167263cd0 (tag: f01)
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:11:01 2024 +0530
+
+    c1
+
+D:\harshit\f7>
