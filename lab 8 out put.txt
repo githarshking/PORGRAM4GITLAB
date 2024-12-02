@@ -1,0 +1,91 @@
+PS C:\Users\SIR MVIT> d:
+PS D:\> cd harshit
+PS D:\harshit> cd f7
+PS D:\harshit\f7> git init
+Reinitialized existing Git repository in D:/harshit/f7/.git/
+PS D:\harshit\f7> Notepad h2.txt
+PS D:\harshit\f7> git add .
+PS D:\harshit\f7> git commit -m "master h2.txt"
+[master be80ee3] master h2.txt
+ 2 files changed, 126 insertions(+)
+ create mode 100644 h2.txt
+ create mode 100644 lab 7 out put.txt
+PS D:\harshit\f7> git checkout -b "fb1"
+Switched to a new branch 'fb1'
+PS D:\harshit\f7> git add .
+PS D:\harshit\f7> git commit -m "c1"
+[fb1 7c4aee0] c1
+ 1 file changed, 2 insertions(+)
+PS D:\harshit\f7> git add .
+PS D:\harshit\f7> git commit -m "c2"
+[fb1 d5ed124] c2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\harshit\f7> git add .
+PS D:\harshit\f7> git commit -m "c3"
+[fb1 2625a04] c3
+ 1 file changed, 1 insertion(+)
+PS D:\harshit\f7> git log
+commit 2625a042849fc306473ef43f4476e66b75f08501 (HEAD -> fb1)
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 17:03:53 2024 +0530
+
+    c3
+
+commit d5ed1246fd38b3f549b6b696ce4df50f0e821b8b
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 17:03:30 2024 +0530
+
+    c2
+
+commit 7c4aee0fb2d2b6dfe7560b6b7d54fc84c51d0dc6
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 17:03:00 2024 +0530
+
+    c1
+
+commit be80ee3d0a51a993c74749a94a1c84fcc5007734 (master)
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:52:57 2024 +0530
+
+    master h2.txt
+
+commit 57bb0f3b12d1d9638a1ffa56da6ada9fa3836d1f
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:14:21 2024 +0530
+
+    c5
+
+commit c14906ac428104f4b95c226fc9b5d79d3039d13c
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:13:50 2024 +0530
+
+    c4
+
+commit 7d737b99d20ec77649fa32a0c25d569eebc242ac
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:13:27 2024 +0530
+
+    c3
+
+commit 507f2856ea62340dc4e0cb724d7f2f61a354dcc9
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+Date:   Fri Nov 29 16:12:52 2024 +0530
+
+    c2
+
+commit 7b1531ffb2bc95c44f6ec168129b0cf167263cd0 (tag: f01)
+Author: Deepanshu <deepanshu70.2010@gmail.com>
+PS D:\harshit\f7> git checkout master
+Switched to branch 'master'
+PS D:\harshit\f7> git checkout -b "fb2"
+Switched to a new branch 'fb2'
+PS D:\harshit\f7> git cherry-pick 7c4aee0fb2d2b6dfe7560b6b7d54fc84c51d0dc6^..2625a042849fc306473ef43f4476e66b75f08501
+[fb2 c959fa4] c1
+ Date: Fri Nov 29 17:03:00 2024 +0530
+ 1 file changed, 2 insertions(+)
+[fb2 cf16eb0] c2
+ Date: Fri Nov 29 17:03:30 2024 +0530
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[fb2 815d00e] c3
+ Date: Fri Nov 29 17:03:53 2024 +0530
+ 1 file changed, 1 insertion(+)
